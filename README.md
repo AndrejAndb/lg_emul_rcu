@@ -5,12 +5,13 @@ Alternative script for Control LG smartTV emulator (2012/2013)
 
 Buld
 ------
+```
 go build rcu.go
-
+```
 Run
 ------
-./rcu -url http://axample.com
-`
+```
+-> % ./rcu -url http://example.com
 LG Emul RCU v0.1
 > Opening "http://andrej-andb.ru"... done.
 > Connecting to Remocon... done.
@@ -23,4 +24,4 @@ LG Emul RCU v0.1
 > Key down                                                                                                                                                                                                                                   
 < exit                                                                                                                                                                                                                                       
 > exit 
-`
+```
